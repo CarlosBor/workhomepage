@@ -17,18 +17,15 @@ const jobBoards: LinkItem[] = [
 ]
 
 const consultancies: LinkItem[] = [
-  { name: 'Sopra Steria', url: 'https://www.soprasteria.es', icon: '🧭' },
-  { name: 'Inetum', url: 'https://www.inetum.com', icon: '🌐' },
-  { name: 'Sener', url: 'https://www.group.sener', icon: '⚙️' },
-  { name: 'LKS', url: 'https://www.lksnext.com', icon: '📈' },
-  { name: 'Hays', url: 'https://www.hays.es', icon: '🤝' },
+  { name: 'Inetum', url: 'https://www.inetum.com/en/jobs?search=Bilbao', icon: '🌐' },
+  { name: 'Hays', url: 'https://www.hays.es/busqueda-empleo/front-end-developer-empleos-en-bilbao-spain?q=Front%20End%20Developer&location=Bilbao,%20Spain&specialismId=&subSpecialismId=&locationf=&industryf=&sortType=0&jobType=-1&flexiWorkType=-1&payTypefacet=-1&minPay=-1&maxPay=-1&jobSource=HaysGCJ&searchPageTitle=Front%20End%20Developer%20Empleos%20en%20Bilbao,%20Spain%20%7C%20Hays%20Selecci%C3%B3n%20Spain&searchPageDesc=%C2%BFBuscas%20un%20nuevo%20puesto%20de%20trabajo%20en%20Bilbao,%20Spain%3F%20Consulta%20nuestras%20%C3%BAltimas%20ofertas%20de%20empleo%20y%20solicita%20tu%20vacante%20con%20Hays.', icon: '🤝' },
 ]
 
 const tealLink: LinkItem = {
   name: 'Teal',
   label: 'Application tracker',
   icon: '🗂️',
-  url: 'https://www.tealhq.com',
+  url: 'https://app.tealhq.com/job-tracker',
 }
 
 function LinkSection({
